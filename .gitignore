@@ -1,62 +1,71 @@
-*.rbc
-capybara-*.html
-.rspec
-/log
-/tmp
-/db/*.sqlite3
-/db/*.sqlite3-journal
-/public/system
-/coverage/
-/spec/tmp
-*.orig
-rerun.txt
-pickle-email-*.html
+# History files
+.Rhistory
+.Rapp.history
 
-# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
-config/initializers/secret_token.rb
-config/master.key
+# Session Data files
+.RData
 
-# Only include if you have production secrets in this file, which is no longer a Rails default
-# config/secrets.yml
+# Example code in package build process
+*-Ex.R
 
-# dotenv
-# TODO Comment out this rule if environment variables can be committed
-.env
+# Output files from R CMD build
+/*.tar.gz
 
-## Environment normalization:
-/.bundle
-/vendor/bundle
+# Output files from R CMD check
+/*.Rcheck/
 
-# these should all be checked in to normalize the environment:
-# Gemfile.lock, .ruby-version, .ruby-gemset
+# RStudio files
+.Rproj.user/
 
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
 
-# if using bower-rails ignore default bower_components path bower.json files
-/vendor/assets/bower_components
-*.bowerrc
-bower.json
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
 
-# Ignore pow environment settings
-.powenv
+# knitr and R markdown default cache directories
+/*_cache/
+/cache/
 
-# Ignore Byebug command history file.
-.byebug_history
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
 
-# Ignore node_modules
-node_modules/
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+rsconnect/
+.Rproj.user
+Data/VIEW_SPECIMEN_FULL_IPES.csv
+Data/VIEW_CATCH_Full_IPES.csv
 
-# Ignore precompiled javascript packs
-/public/packs
-/public/packs-test
-/public/assets
+*~
+.Rhistory
+.RData
+*.pdf
+*.png
+*.html
+*.docx
+*.Rnw
+*.Snw
+.Rproj.user
+*.aux
+*.log
+*.nav
+*.out
+*.nav
+*.snm
+*.tex
+*.toc
+*.ppt
+*knitr-cache
+*knitr-cache-tex
+*knitr-figs
+*knitr-cache-docx
+_main.Rmd
+^examples/knitr-examples/knitr-cache-*
+*.rdb
+*.RData
+*.rdx
 
-# Ignore yarn files
-/yarn-error.log
-yarn-debug.log*
-.yarn-integrity
-
-# Ignore uploaded files in development
-/storage/*
-!/storage/.keep
+2019-124-Survey/
+2021-033-Survey/
